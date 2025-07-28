@@ -194,10 +194,6 @@ ControlsFrame.BackgroundTransparency = 0.6
 ControlsFrame.BorderSizePixel = 0
 ControlsFrame.Parent = MapFrame
 
--- Zoom controls
-local ZoomInButton = createIconButton("ZoomIn", "+", UDim2.new(0.4, 0, 0.3, 0), UDim2.new(0.55, 0, 0, 0), Color3.fromRGB(80, 180, 80))
-local ZoomOutButton = createIconButton("ZoomOut", "-", UDim2.new(0.4, 0, 0.3, 0), UDim2.new(0.55, 0, 0.35, 0), Color3.fromRGB(180, 80, 80))
-
 -- Waypoint controls
 local SetWaypointButton = createIconButton("SetWaypoint", "📍", UDim2.new(0.4, 0, 0.3, 0), UDim2.new(0, 0, 0, 0), Color3.fromRGB(80, 80, 180))
 local TeleportButton = createIconButton("Teleport", "🚀", UDim2.new(0.4, 0, 0.3, 0), UDim2.new(0, 0, 0.35, 0), Color3.fromRGB(180, 120, 80))
